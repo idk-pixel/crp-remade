@@ -7,3 +7,7 @@ Well as of 11/9/2022, CRP (Controlled Roleplay Solutions) is going to shut down.
 ## _How do you use this?_
 
 _More info coming soon._
+
+### _Dependencies_ 
+
+discord.js v14.6.0

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/idk-pixel/crp-remade/issues"
   },
-  "homepage": "https://github.com/idk-pixel/crp-remade#readme"
+  "homepage": "https://github.com/idk-pixel/crp-remade#readme",
+  "dependencies": {
+    "discord.js": "^14.6.0"
+  }
 }
