@@ -8,6 +8,13 @@ Well as of 11/9/2022, CRP (Controlled Roleplay Solutions) is going to shut down.
 
 _More info coming soon._
 
-### _Dependencies_ 
+### _Dependencies_
 
 discord.js v14.6.0
+
+##### Errors
+
+###### If you get an error, you might have the incorrect dependencies installed.
+
+Try this command to make sure that you have the correct dependencies.
+_More info soon._
