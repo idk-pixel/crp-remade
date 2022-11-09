@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/idk-pixel/crp-remade#readme",
   "dependencies": {
+    "ascii-table": "^0.0.9",
     "discord.js": "^14.6.0"
   }
 }

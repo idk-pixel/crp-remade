@@ -11,6 +11,7 @@ _More info coming soon._
 ### _Dependencies_
 
 discord.js v14.6.0
+ascii-table v0.0.9
 
 ##### Errors
 
