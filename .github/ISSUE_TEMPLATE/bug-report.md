@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Bug report template
+about: If you have a bug, please use this template. Add on to it if you would like. Please use detail, etc.
 title: BUG REPORT - {bug}
 labels: bug
 assignees: ''
@@ -20,4 +20,4 @@ The bot is erroring when I open it. It shows an intent error.
 
 ### Comments/Details I want you to know:
 
-None.```
+None.
