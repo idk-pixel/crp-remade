@@ -1,12 +1,12 @@
 # CRP Remade By WhoAboutYT
 
-As most of you know, (CRP)[https://crpbot.xyz/] is going shut down. As of 11/12/2022, this website/domain will not work.
+As most of you know, [CRP](https://crpbot.xyz/) is going shut down. As of 11/12/2022, this website/domain will not work.
 
 I made this bot so people could run a custom bot as well, locally or on a VPS.
 
 # Having trouble installing?
 
-(Click this.)[https://github.com/idk-pixel/crp-remade/issues/new?milestone=CRP+Remade+-+In+Development] and state which issue with the bot you are facing.
+[Click this.](https://github.com/idk-pixel/crp-remade/issues/new?milestone=CRP+Remade+-+In+Development) and state which issue with the bot you are facing.
 
 # How do I install this correctly?
 
