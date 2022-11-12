@@ -1,21 +1,19 @@
-# CRP Remade by WhoAboutYT
+# CRP Remade By WhoAboutYT
 
-## _What motivated me to make this/Why did I make this?_
+As most of you know, (CRP)[https://crpbot.xyz/] is going shut down. As of 11/12/2022, this website/domain will not work.
 
-Well as of 11/9/2022, CRP (Controlled Roleplay Solutions) is going to shut down. I want to re-make CRP as an open source bot so people can run this locally and still run their servers.
+I made this bot so people could run a custom bot as well, locally or on a VPS.
 
-## _How do you use this?_
+# Having trouble installing?
 
-_More info coming soon._
+(Click this.)[https://github.com/idk-pixel/crp-remade/issues/new?milestone=CRP+Remade+-+In+Development] and state which issue with the bot you are facing.
 
-### _Dependencies_
+# How do I install this correctly?
 
-discord.js v14.6.0
-ascii-table v0.0.9
+A youtube video will come out soon! Stay posted!
 
-##### Errors
+## Dependencies
 
-###### If you get an error, you might have the incorrect dependencies installed.
-
-Try this command to make sure that you have the correct dependencies.
-_More info soon._
+- discord.js v14.6.0
+- ascii-table v0.0.9
+- mongoose v6.7.2

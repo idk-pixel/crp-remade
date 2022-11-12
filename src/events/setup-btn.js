@@ -25,11 +25,10 @@ module.exports = {
         }
 
         // Code if all checks go well.
-        var embed_temp = new EmbedBuilder().setTitle('CRP Remade | Shifts').setColor('DarkOrange').setTimestamp().setFooter({ text: 'CRP Remade' })
+        const embed_temp = new EmbedBuilder().setTitle('CRP Remade | Shifts').setColor('DarkOrange').setTimestamp().setFooter({ text: 'CRP Remade' })
         switch (interaction.customId) {
             case "setup-shifts":
-                embed_temp.setDescription('To set up this utility, please run the command "/shift setup [args]"')
-                return interaction.reply({ embeds: [embed_temp], ephemeral: true })
+                interaction.channel.send({ embeds: [embed_temp.setDescription()] })
         }
     }
 }
