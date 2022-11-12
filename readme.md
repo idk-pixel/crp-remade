@@ -1,3 +1,8 @@
+---
+name: CRP Remade
+---
+
+
 # CRP Remade By WhoAboutYT
 
 As most of you know, [CRP](https://crpbot.xyz/) is going shut down. As of 11/12/2022, this website/domain will not work.
