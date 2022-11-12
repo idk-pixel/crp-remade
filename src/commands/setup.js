@@ -1,32 +1,29 @@
 const { ChatInputCommandInteraction, SlashCommandBuilder, Interaction, EmbedBuilder } = require('discord.js')
+const { embeds, code_util } = require('../utils/modules/setup-module')
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName('ping')
-        .setDescription("Respond's with the bot ping.")
+        .setName('setup')
+        .setDescription("Setup the bot.")
     ,
     /**
      * 
      * @param {ChatInputCommandInteraction} interaction  
      */
     execute: async (interaction, client) => {
-        try {
-            const m2 = await interaction.reply({ content: 'Working...', fetchReply: true });
+        if (interaction.user.id !== interaction.guild.ownerId) {
+            return interaction.reply({
+                embeds: [embeds.ownerPermissionErr],
+                ephemeral: true
+            })
+        }
+        interaction.reply({
+            embeds: [embeds.welcome],
+            components: [code_util.buttons]
+        })
 
-            await interaction.editReply({
-                content: 'Loading progress: 100% (100%/100%) [Done]',
-                embeds: [
-                    new EmbedBuilder()
-                        .setTitle('Pong!')
-                        .addFields([{ name: 'Bot Latency', value: `${m2.createdTimestamp - interaction.createdTimestamp}ms` }
-                            , {
-                            name: 'Bot Latency',
-                            value: `${interaction.client.ws.ping}ms`
-                        }])
-                        .setColor('Random')
-                ]
-            });
-        } catch (e) { console.error(e) };
+
+        // Rest will be handled by a setup event.
     }
 }
 
